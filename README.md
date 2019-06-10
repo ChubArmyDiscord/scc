@@ -1,6 +1,6 @@
 function postMessageToDiscord(message) {
 
-  message = message || "Bean";
+  message = message || "owo";
   
   var discordUrl = 'https://discordapp.com/api/webhooks/labnol/123';
   var payload = JSON.stringify({content: message});
